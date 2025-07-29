@@ -1,7 +1,7 @@
 # WAREOPS-WAREHOUSE-MANAGEMENT-ROBOT
 # WAREOPS: A Warehouse Management Robot
 
-WAREOPS is a line-following, pick-and-place warehouse management robot developed as part of an engineering project at VIT-AP University. The system is designed to automate item transport within a warehouse using sensors, servo-controlled lifting mechanisms, and wireless communication.
+WAREOPS is a line-following, pick-and-place warehouse management robot developed as part of an engineering project at VIT-AP University. The system is designed to automate item transport within a warehouse using sensors, fork lifting mechanisms, and wireless communication.
 
 ---
 
@@ -12,7 +12,7 @@ To optimize warehouse operations by automating the movement and placement of pac
 - Infrared sensors for navigation
 - Ultrasonic sensors for obstacle detection
 - QR code-based route decision system
-- Wi-Fi modules for communication with smart racks and user interface
+- Wi-Fi modules for communication with racks and user interface and used the camera modules to detect the size of the objects in the warhouse
 
 ---
 
@@ -60,13 +60,7 @@ To optimize warehouse operations by automating the movement and placement of pac
 
 ---
 
-## 📂 File Structure
 
-- `/firmware` – Code for IR sensor, servo, ultrasonic
-- `/esp32-cam` – Image capture and upload code
-- `/esp8266` – Communication with smart rack
-- `/web-server` – HTML files and scripts for control interface
-- `/QR-processing` – Code for QR code recognition and routing
 
 
 ## 👨‍💻 Team
@@ -76,11 +70,9 @@ To optimize warehouse operations by automating the movement and placement of pac
 - Anaswara Jaykumar  
 - Mekha Manosh  
 - Aayushi Maji  
-- Anurag De  
 
----
 
-## 📜 License
+
 
 This project is under the MIT License. See [LICENSE](./LICENSE) for details.
 
