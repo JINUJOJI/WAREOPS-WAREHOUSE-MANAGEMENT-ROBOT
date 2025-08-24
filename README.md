@@ -3,7 +3,7 @@
 WAREOPS is a line-following, pick-and-place warehouse management robot developed as part of an engineering project at VIT-AP University.  
 It automates item transport and placement within a warehouse using sensors, a forklift mechanism, and wireless communication between microcontrollers.
 
----
+---https://github.com/JINUJOJI/WAREOPS-WAREHOUSE-MANAGEMENT-ROBOT.wiki.git WIKI PAGE
 
 ## 💡 Project Objective
 
